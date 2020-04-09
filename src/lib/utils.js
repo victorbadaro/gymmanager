@@ -22,7 +22,8 @@ module.exports = {
             month,
             year,
             iso: `${year}-${month}-${day}`, // Tipo ISO 8601
-            birthDay: `${day}/${month}`
+            birthDay: `${day}/${month}`,
+            format: `${day}/${month}/${year}`
         }
     }
 }
