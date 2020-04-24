@@ -280,4 +280,5 @@ td:last-child {
 
 .table-container .header form button {
     margin: 0;
+    cursor: pointer;
 }
